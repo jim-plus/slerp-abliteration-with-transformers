@@ -1,6 +1,6 @@
-# Removing refusals with HF Transformers
+# SLERP Abliteration with HF Transformers
 
-This is a crude, proof-of-concept implementation to remove refusals from an LLM model without using TransformerLens while applying SLERP. This means, that this supports every model that HF Transformers supports* in principle.
+This is a crude, proof-of-concept implementation to remove refusals (abliteration) from an LLM model without using TransformerLens while applying SLERP. This means, that this supports every model that HF Transformers supports* in principle.
 
 The code was originally tested on a RTX 2060 6GB, thus mostly <3B models have been tested, but the code has been tested to work with bigger models as well.
 
